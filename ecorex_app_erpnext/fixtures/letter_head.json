@@ -1,0 +1,13 @@
+[
+ {
+  "content": "<div class=\"col-xs-12\"><div>             <div class=\"col-xs-3 tnr\">                    <div class=\"row\">            <div style=\"\" class=\"col-xs-12 text-left padding-right0 margin-both0\"><img src=\"/assets/footwear_erpnext/images/fos_logo.jpg\" alt=\"/assets/footwear_erpnext/images/fos_logo.jpg\" height=\"80\"> </div><div style=\"\" class=\"col-xs-12 text-left padding-right0 margin-both0\"><b>\u00a0{% set dn = frappe.get_doc(\"Company\", doc.company) %}</b><br></div>                    </div>                        </div>        <div class=\"col-xs-4 tnr size12\">         <div class=\"row\"><div class=\"col-xs-12 text-left padding-right0 margin-both0\"><b>{{ dn.makwiz_company_name }}<br>{{ dn.makwiz_address_line_1 }}<br>{{ dn.makwiz_address_line_2 }}<br>{{ dn.makwiz_address_line_3 }}<br>{{ dn.makwiz_address_line_4 }}</b></div>         </div>                  </div><b>TIN NO:</b>{{ dn.makwiz_tin_no }}</div><div><b>GST NO:</b>{{ dn.makwiz_gst\u00a0 or \"\"}}</div><div><b>Tel:</b>{{ dn.phone_no or \"\" }},\u00a0{{ dn.fax or \"\" }}<br></div><div><b>\u00a0Email:</b>{{ dn.email or \"\" }}<br></div><div><b>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0</b></div><b>\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0</b><br><b>\u00a0 \u00a0 \u00a0</b><br><b>\u00a0 \u00a0 \u00a0</b></div><br><br>", 
+  "disabled": 0, 
+  "docstatus": 0, 
+  "doctype": "Letter Head", 
+  "footer": "", 
+  "is_default": 1, 
+  "letter_head_name": "FOOT ON SHOES", 
+  "modified": "2018-09-07 13:33:36.377823", 
+  "name": "FOOT ON SHOES"
+ }
+]
