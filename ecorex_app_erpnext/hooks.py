@@ -13,7 +13,7 @@ app_license = "MIT"
 
 app_url = "https://github.com/ecorex"
 app_version = "0.0.1"
-fixtures = ["Custom Field","Custom Script"]
+fixtures = ["Custom Script"]
 hide_in_installer = True
 
 # Includes in <head>
