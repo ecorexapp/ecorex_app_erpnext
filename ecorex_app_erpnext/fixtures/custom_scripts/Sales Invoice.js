@@ -49,7 +49,7 @@ frappe.ui.form.on("Sales Invoice", {
         }else 
            {
 
-            j = j + row.item_name +"  "+row.qty +".via vehicle number "+frm.doc.vehicle_no+" (Driver's Name and Contact No. -"+frm.doc.driver_name +") for your reference.Thank you for your order."
+            j = j + row.item_name +"  "+row.qty +"+" "+row.uom+" via vehicle number "+frm.doc.vehicle_no+" (Driver's Name and Contact No. -"+frm.doc.driver_name +") for your reference.Thank you for your order."
 
         } 
 
